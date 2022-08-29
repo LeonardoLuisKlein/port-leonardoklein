@@ -30,5 +30,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./Titles.scss"
+@import "./Titles.scss";
 </style>
