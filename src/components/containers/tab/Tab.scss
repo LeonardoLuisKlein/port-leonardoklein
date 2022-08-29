@@ -1,7 +1,10 @@
 #tab{
     width: 85vw;
     height: 100vh;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    @media (max-width: 768px) {
+        margin-left: 0rem;
+    }
 }
 
 #name{

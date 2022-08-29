@@ -1,0 +1,13 @@
+.timeDate {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    #clock {
+      font-weight: 700;
+      font-size: 8em;
+      height: 150px;
+    }
+    #date {
+      font-size: 1em;
+    }
+  }

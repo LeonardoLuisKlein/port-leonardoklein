@@ -1,5 +1,6 @@
 <template>
   <div id="tab">
+    <Clock />
     <div id="principal">
       <br />
       <div id="name">
@@ -62,6 +63,7 @@
 <script>
 import Titles from "@/components/micro/titles/Titles.vue";
 import Texts from "@/components/micro/texts/Texts.vue";
+import Clock from "../clock/Clock.vue";
 
 export default {
   // eslint-disable-next-line
@@ -69,7 +71,8 @@ export default {
   components: {
     Titles,
     Texts,
-  },
+    Clock
+},
 };
 </script>
 
