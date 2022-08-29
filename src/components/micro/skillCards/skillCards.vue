@@ -1,25 +1,20 @@
 <template>
-  <div v-if="type === 'Github'" href="github.com/LeonardoLuisKlein">
+  <a v-if="type === 'Github'" href="https://github.com/LeonardoLuisKlein">
     <img src="@/assets/github.png"/>
-    <Texts text="Github"/>
-  </div>
+  </a>
 
-  <div v-else-if="type === 'Insta'" href="https://www.instagram.com/leonardoluis.klein/">
+  <a v-else-if="type === 'Insta'" href="https://www.instagram.com/leonardoluis.klein/">
     <img src="@/assets/insta.png"/>
-    <Texts text="Instagram"/>
-  </div>
+  </a>
 
-  <div v-else-if="type === 'Linkedin'" href="https://www.linkedin.com/in/leonardo-luis-klein-00857b237/">
+  <a v-else-if="type === 'Linkedin'" href="https://www.linkedin.com/in/leonardo-luis-klein-00857b237/">
     <img src="@/assets/linkedin.png"/>
-    <Texts text="Linkedin"/>
-  </div>
+  </a>
 </template>
 
 <script>
-import Texts from '../texts/Texts.vue';
 export default {
     name: "skillCards",
-    components: { Texts },
     props:{
         type: String
     }
