@@ -7,3 +7,13 @@
 #name{
     display: flex;
 }
+
+#imageContainer{
+    display: inline-block;
+    justify-content: space-around;
+img{
+    width: 60px;
+    height: 80px;
+}
+}
+
