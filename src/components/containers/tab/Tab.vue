@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="tab">
     <div id="principal"><br>
       <div id="name">
       <Titles type="h1" title="Leonardo" nameClass="firstName"/>
