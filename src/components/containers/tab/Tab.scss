@@ -1,9 +1,22 @@
 #tab{
     width: 85vw;
     height: 100vh;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    @media (max-width: 768px) {
+        margin-left: 0rem;
+    }
 }
 
 #name{
     display: flex;
 }
+
+#imageContainer{
+    display: inline-block;
+    justify-content: space-around;
+img{
+    width: 60px;
+    height: 80px;
+}
+}
+
