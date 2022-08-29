@@ -23,6 +23,11 @@
       <Texts text="Programa de bolsas Vue.js com AEM na empresa Compass.uol" />
       <Texts text="23/05 - 21/08" />
     </div>
+    <div id="linguagem">
+      <br />
+      <Titles type="h2" title="Idioma:" nameClass="subTitles" />
+      <Texts text="Inglês - Intermediário - avançado" />
+    </div>
     <div id="skills">
       <br />
       <Titles type="h2" title="Skills:" nameClass="subTitles" />
