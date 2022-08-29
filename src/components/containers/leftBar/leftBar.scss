@@ -27,3 +27,22 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    #bar{
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    }
+
+    #myImage, #socialBar{
+        display: none;
+    }
+
+    #socialContainer{
+        flex-direction: row;
+        margin-top: -15px;
+    }
+
+    
+}

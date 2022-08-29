@@ -2,9 +2,6 @@
     width: 85vw;
     height: 100vh;
     margin-left: 2rem;
-    @media (max-width: 768px) {
-        margin-left: 0rem;
-    }
 }
 
 #name{
@@ -17,6 +14,10 @@
 img{
     width: 60px;
     height: 80px;
+    @media (max-width: 768px){
+        width: 50px;
+    height: 80px;
+    }
 }
 }
 
