@@ -26,7 +26,7 @@
     <div id="linguagem">
       <br />
       <Titles type="h2" title="Idioma:" nameClass="subTitles" />
-      <Texts text="Inglês - Intermediário - avançado" />
+      <Texts text="Inglês - Intermediário/avançado" />
     </div>
     <div id="skills">
       <br />
