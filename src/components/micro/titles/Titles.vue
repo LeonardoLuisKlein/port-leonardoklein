@@ -17,6 +17,7 @@ export default {
       type: {
             type: String,
             require: true,
+            default: 'h2',
         },
         nameClass: {
             type: String,
