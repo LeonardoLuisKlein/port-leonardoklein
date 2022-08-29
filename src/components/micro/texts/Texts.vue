@@ -17,5 +17,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import './Texts.scss';
+p {
+    font-size: 1.5rem;
+    @media (max-width: 768px){
+        font-size: 1em;
+    }
+}
 </style>
