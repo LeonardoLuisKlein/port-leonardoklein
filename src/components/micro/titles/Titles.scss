@@ -1,12 +1,12 @@
 .firstName{
-    font-size: 4rem;
+    font-size: 3rem;
     @media (max-width: 768px) {
         font-size: 2rem;
     }
 }
 
 .lastName{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #4682B4;
     margin-left: 10px;
     @media (max-width: 768px) {
@@ -15,7 +15,7 @@
 }
 
 .subTitles{
-    font-size: 3rem;
+    font-size: 2rem;
     @media (max-width: 768px) {
         font-size: 1.5rem;
     }
