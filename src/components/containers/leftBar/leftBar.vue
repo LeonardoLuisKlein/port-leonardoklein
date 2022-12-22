@@ -5,8 +5,8 @@
         </div>
         <div id="navContainer">
             <div id="navDiv">
-                <a class="socialText">Social</a>
-                <a class="socialText">Projetos</a>
+                <a class="socialText" v-on:click="pushToSocial">Social</a>
+                <a class="socialText" v-on:click="pushToProjects">Projetos</a>
             </div>
             <div id="cardsDiv">
                 <skillCards type="Github" />
@@ -24,6 +24,17 @@ export default {
     name: 'leftBar',
     components: {
         skillCards
+    },
+    methods:{
+        pushToSocial(){
+            this.$router.push('/')
+            console.log("Bombando")
+        },
+
+        pushToProjects(){
+            this.$router.push('/projetos')
+            console.log("Bombando2")
+        } 
     }
 
 }
