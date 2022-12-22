@@ -3,11 +3,16 @@
         <div><br>
             <img draggable="false" src="@/assets/leonardoluisk.png" id="myImage" />
         </div>
-        <div id="socialContainer"><br>
-            <p id="socialBar">Social</p><br>
-            <skillCards type="Github" />
-            <skillCards type="Insta" />
-            <skillCards type="Linkedin" />
+        <div id="navContainer">
+            <div id="navDiv">
+                <a class="socialBar">Social</a>
+                <a class="socialBar">Projetos</a>
+            </div>
+            <div id="cardsDiv">
+                <skillCards type="Github" />
+                <skillCards type="Insta" />
+                <skillCards type="Linkedin" />
+            </div>
         </div>
     </nav>
 </template>
