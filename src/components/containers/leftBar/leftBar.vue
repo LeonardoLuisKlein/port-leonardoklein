@@ -1,12 +1,12 @@
 <template>
-    <nav id="bar">
+    <nav>
         <div><br>
             <img draggable="false" src="@/assets/leonardoluisk.png" id="myImage" />
         </div>
         <div id="navContainer">
             <div id="navDiv">
-                <a class="socialBar">Social</a>
-                <a class="socialBar">Projetos</a>
+                <a class="socialText">Social</a>
+                <a class="socialText">Projetos</a>
             </div>
             <div id="cardsDiv">
                 <skillCards type="Github" />

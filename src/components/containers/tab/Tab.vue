@@ -3,7 +3,7 @@
     <div id="principal">
       <br />
       <div id="name">
-        <Titles type="h1" title="Leonardo" nameClass="firstName" />
+        <Titles type="h1" title="Leonardo Luis" nameClass="firstName" />
         <Titles type="h1" title="Klein" nameClass="lastName" />
       </div>
       <Texts text="Três Arroios - RS" />
@@ -25,7 +25,7 @@
     <div id="linguagem">
       <br />
       <Titles type="h2" title="Idioma:" nameClass="subTitles" />
-      <Texts text="Inglês - Intermediário/avançado" />
+      <Texts text="Inglês - Avançado" />
     </div>
     <div id="skills">
       <br />

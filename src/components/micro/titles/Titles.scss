@@ -1,14 +1,14 @@
 .firstName{
-    font-size: 3rem;
+    font-size: 4rem;
     @media (max-width: 768px) {
         font-size: 2rem;
     }
 }
 
 .lastName{
-    font-size: 3rem;
+    font-size: 4rem;
     color: #4682B4;
-    margin-left: 10px;
+    margin-left: 15px;
     @media (max-width: 768px) {
         font-size: 2rem;
     }

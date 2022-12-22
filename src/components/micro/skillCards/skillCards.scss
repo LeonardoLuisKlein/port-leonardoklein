@@ -9,10 +9,12 @@ a {
   background: #4682b4;
   transition: 0.3s;
   border: 0.2rem solid rgba(255, 255, 255, 0.1);
-  transition: 0.5s
+  transition: 0.3s;
   &:hover {
     background: rgba(135, 206, 250, 0.9);
     transition: 0.3s;
+    width: 75px;
+    height: 75px;
   }
 
   img {
@@ -29,5 +31,9 @@ a {
   a {
     width: 45px;
     height: 45px;
+    &:hover {
+      width: 45px;
+      height: 45px;
+    }
   }
 }
