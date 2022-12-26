@@ -28,12 +28,10 @@ export default {
     methods:{
         pushToSocial(){
             this.$router.push('/')
-            console.log("Bombando")
         },
 
         pushToProjects(){
             this.$router.push('/projetos')
-            console.log("Bombando2")
         } 
     }
 
