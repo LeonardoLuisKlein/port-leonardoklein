@@ -3,7 +3,7 @@
     <div id="principal">
       <br />
       <div id="name">
-        <Titles type="h1" title="Leonardo Luis" nameClass="firstName" />
+        <Titles type="h1" title="Leonardo" nameClass="firstName" />
         <Titles type="h1" title="Klein" nameClass="lastName" />
       </div>
       <Texts text="Três Arroios - RS" />
