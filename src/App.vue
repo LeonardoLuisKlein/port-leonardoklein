@@ -15,15 +15,12 @@ body,
 * {
   margin: 0;
   padding: 0;
+  border: 0px;
+  outline: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-#app::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 45px;
-    height: 45px;
-    accent-color: #f7b718;
-    cursor: pointer;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 </style>

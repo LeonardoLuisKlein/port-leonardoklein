@@ -1,0 +1,70 @@
+#cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 45vw;
+    height: 700px;
+    border: 5px #4682B4 solid;
+    border-radius: 10px;
+    @media (max-width: 768px) {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+#imageCard{
+    width: 42vw;
+    height: 500px;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
+}
+
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    @media (max-width: 768px) {
+        font-size: 0.8rem;
+    }
+}
+
+#buttonsContainer{
+width: 50%;
+display: flex;
+justify-content: space-between;
+gap: 10px;
+
+#buttonCard{
+width: 150px;
+height: 60px;
+font-size: 1.5rem;
+background: #4682B4;
+color: #FFFFFF;
+border-radius: 10px;
+border: none;
+transition: 0.3s;
+margin-bottom: 10px;
+&:hover{
+background: #d4d4d4;
+color: #4682B4;
+transition: 0.3s;
+}
+@media (max-width: 768px) {
+    font-size: 0.8rem;
+    height: 50px;
+    width: 10;
+}
+}
+@media (max-width: 768px) {
+    width: 99%;
+}
+}
