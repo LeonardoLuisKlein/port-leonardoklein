@@ -86,3 +86,11 @@ a:hover{
         transition: 0.2s;
     }
 }
+
+p{
+    text-align: center;
+    margin-top: 90%;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}

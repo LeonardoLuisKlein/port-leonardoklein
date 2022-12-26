@@ -7,7 +7,12 @@
     link="https://lustrous-fenglisu-bcbc28.netlify.app/#/" 
     linkRep="https://github.com/LeonardoLuisKlein/desafioCompass_SquadGreen"
     picture_src="certAdd.png"/>
-    <!-- <projectCard cardText="Compass Logon" description="Projeto web consumindo API's utilizando Vue.js" link="https://lustrous-fenglisu-bcbc28.netlify.app/#/" picture_src="reactWether.png"/> -->
+    <projectCard 
+    cardText="Compass Logon" 
+    description="Projeto web consumindo API's utilizando Vue.js (usuário-admin.admin senha-1234567)" 
+    link="https://desafio-vue-squad-red.web.app/" 
+    linkRep="https://github.com/eduardonowa/desafioCompass_SquadRed"
+    picture_src="logonCompass.png"/>
     <projectCard 
     cardText="Weather App" 
     description="Projeto web consumindo API's utilizando React.js" 
