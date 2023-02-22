@@ -10,13 +10,20 @@ nav{
     }
 }
 
+p{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #000000;
+}
+
 .socialText{
     font-size: 1.7rem;
     font-weight: 700;
     color: #000000;
     display: flex;
     justify-content: center;
-    transition: 0.2s;
+    transition: 0.3s;
     cursor: pointer;
 
 }
@@ -50,9 +57,8 @@ margin-top: 40px;
 }
 
 a:hover{
-    font-size: 2rem;
     color: #FFFFFF;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 @media (max-width: 768px) {
@@ -91,7 +97,7 @@ a:hover{
     }
 }
 
-p{
+footer{
     text-align: center;
     margin-top: 20%;
     @media (max-width: 768px) {

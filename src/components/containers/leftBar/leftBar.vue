@@ -1,9 +1,10 @@
 <template>
   <nav>
-    <div>
+    <div id="socialContainer">
       <br />
       <img draggable="false" src="@/assets/leonardoluisk.png" id="myImage" />
     </div>
+    <p>Leonardo Klein</p>
     <div id="navContainer">
       <div id="navDiv">
         <a class="socialText" v-on:click="pushToSocial">Social</a>
@@ -15,7 +16,7 @@
         <skillCards type="Linkedin" />
       </div>
     </div>
-    <p>Created by Leonardo Luis Klein</p>
+    <footer>Created by Leonardo Luis Klein</footer>
   </nav>
 </template>
 
