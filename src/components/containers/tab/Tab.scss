@@ -1,5 +1,8 @@
 #tab{
     margin-left: 2rem;
+    @media (max-width: 280px){
+    margin-left: 10px;
+    }
 }
 
 #name{
@@ -14,7 +17,7 @@ img{
     height: 80px;
     @media (max-width: 768px){
         width: 45px;
-    height: 80px;
+        height: 80px;
     }
 }
 }

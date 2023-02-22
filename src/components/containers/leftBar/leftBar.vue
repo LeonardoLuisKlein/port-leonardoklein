@@ -16,7 +16,6 @@
         <skillCards type="Linkedin" />
       </div>
     </div>
-    <footer>Created by Leonardo Luis Klein</footer>
   </nav>
 </template>
 

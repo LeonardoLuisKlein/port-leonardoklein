@@ -99,11 +99,3 @@ a:hover{
         transition: 0.2s;
     }
 }
-
-footer{
-    text-align: center;
-    margin-top: 20%;
-    @media (max-width: 768px) {
-        display: none;
-    }
-}
