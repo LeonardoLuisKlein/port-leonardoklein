@@ -25,6 +25,18 @@
     link="https://effulgent-croissant-fdd404.netlify.app/" 
     linkRep="https://github.com/LeonardoLuisKlein/react_test"
     picture_src="calculadoraImc.png"/>
+    <projectCard 
+    cardText="GitHub finder"
+    description="Projeto web utilizando React.js com API'S e TypeScript" 
+    link="https://symphonious-paprenjak-a99d8c.netlify.app/" 
+    linkRep="https://github.com/LeonardoLuisKlein/GitHubFinder"
+    picture_src="ghfinder.png"/>
+    <projectCard 
+    cardText="ToDo List"
+    description="Projeto web utilizando React.js com TypeScript" 
+    link="https://fascinating-halva-abefd1.netlify.app/" 
+    linkRep="https://github.com/LeonardoLuisKlein/ToDoTS"
+    picture_src="todots.png"/>
   </div>
 </template>
 

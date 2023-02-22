@@ -52,10 +52,10 @@ color: #FFFFFF;
 border-radius: 10px;
 border: none;
 transition: 0.3s;
+opacity: 0.7;
 margin-bottom: 10px;
 &:hover{
-background: #d4d4d4;
-color: #4682B4;
+    opacity: 10;
 transition: 0.3s;
 }
 @media (max-width: 768px) {
