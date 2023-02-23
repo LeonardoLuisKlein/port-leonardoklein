@@ -22,5 +22,8 @@ p {
     @media (max-width: 768px){
         font-size: 1em;
     }
+    @media (max-width: 1280px) {
+        font-size: 1em;
+    }
 }
 </style>

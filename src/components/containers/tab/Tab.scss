@@ -3,6 +3,14 @@
     @media (max-width: 280px){
     margin-left: 10px;
     }
+    @media (max-width: 1280px){
+        width: 80%;
+        margin-left: 1rem;
+    }
+    @media (max-height: 700px){
+        overflow: hidden;
+        overflow-y: scroll;
+    }
 }
 
 #name{
@@ -17,7 +25,10 @@ img{
     height: 80px;
     @media (max-width: 768px){
         width: 45px;
-        height: 80px;
+    }
+    @media (max-width: 1500px){
+        width: 50px;
+        height: 40px;
     }
 }
 }
