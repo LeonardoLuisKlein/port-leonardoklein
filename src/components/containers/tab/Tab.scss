@@ -11,6 +11,10 @@
         overflow: hidden;
         overflow-y: scroll;
     }
+    @media (max-height: 700px){
+        overflow: auto;
+        overflow-y: auto;
+    }
 }
 
 #name{
