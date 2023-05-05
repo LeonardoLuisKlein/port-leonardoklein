@@ -42,7 +42,7 @@
     description="Processador de imagens desktop windows form utilizando C#" 
     link="https://portifolio-leonardo.netlify.app/#/" 
     linkRep="https://github.com/LeonardoLuisKlein/ProcessadorDeImagens"
-    picture_src="processador.png"/>
+    picture_src="proc.png"/>
   </div>
 </template>
 
