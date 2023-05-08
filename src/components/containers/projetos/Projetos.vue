@@ -43,6 +43,12 @@
     link="https://portifolio-leonardo.netlify.app/#/" 
     linkRep="https://github.com/LeonardoLuisKlein/ProcessadorDeImagens"
     picture_src="proc.png"/>
+    <projectCard 
+    cardText="Formulário JS"
+    description="Formulário com validações Regex usando React.js" 
+    link="https://portifolio-leonardo.netlify.app/#/" 
+    linkRep="https://github.com/LeonardoLuisKlein/internReactForm"
+    picture_src="intern.png"/>
   </div>
 </template>
 
@@ -54,7 +60,7 @@ export default {
 // eslint-disable-next-line
 name: "Projetos",
 components: {
-  projectCard, Titles
+  projectCard, Titles 
 }
 }
 </script>
