@@ -26,4 +26,9 @@ p {
         font-size: 1em;
     }
 }
+
+.centerText{
+    text-align: center;
+}
+
 </style>
