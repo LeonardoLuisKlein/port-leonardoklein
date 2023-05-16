@@ -32,11 +32,11 @@
       <Titles type="h2" title="Skills:" nameClass="subTitles" />
       <div id="imageContainer">
         <img
-          alt="Leo-Vue"
+          alt="Vue"
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
         />
         <img
-          alt="Leo-Js"
+          alt="JavaScript"
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
         />
         <img
@@ -44,19 +44,19 @@
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
         />
         <img
-          alt="Leo-Ts"
+          alt="TypeScript"
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
         />
         <img
-          alt="Leo-HTML"
+          alt="HTML"
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
         />
         <img
-          alt="Leo-CSS"
+          alt="CSS"
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
         />
         <img
-          alt="Leo-SAAS"
+          alt="SAAS"
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
         />
       </div>
