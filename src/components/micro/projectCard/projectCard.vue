@@ -4,8 +4,8 @@
       <p id="desciptionCard">{{ description }}</p>
     <img :src="resolve_img_url(picture_src)" id="imageCard" />
     <div id="buttonsContainer">
-    <a :href="link"><button id="buttonCard">Visitar</button></a>
-    <a :href="linkRep"><button id="buttonCard">Repositório</button></a>
+    <a :href="link"><button class="buttonCard">Visitar</button></a>
+    <a :href="linkRep"><button class="buttonCard">Repositório</button></a>
     </div>
   </div>
 </template>

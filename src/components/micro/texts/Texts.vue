@@ -18,11 +18,8 @@ export default {
 
 <style scoped lang="scss">
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     @media (max-width: 768px){
-        font-size: 1em;
-    }
-    @media (max-width: 1280px) {
         font-size: 1em;
     }
 }
