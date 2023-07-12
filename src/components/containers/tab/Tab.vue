@@ -13,53 +13,29 @@
       <br />
       <Titles type="h2" title="Sobre:" nameClass="subTitles" />
       <Texts
-        text="Natural de Três Arroios, apaixonado por tecnologia e programação. Cursando Ciência da Computação na URI Erechim"
+        text="Natural de Três Arroios, apaixonado por tecnologia e programação."
+      />
+      <Texts
+        text="Sempre buscando evoluir e aprimorar meus conhecimentos."
       />
     </div>
     <div id="experiencias">
       <br />
       <Titles type="h2" title="Experiências:" nameClass="subTitles" />
-      <Texts text="Programa de bolsas Vue.js com AEM na empresa Compass.uol" />
+      <Texts text="Programa de bolsas Vue.js com AEM - Compass.uol" />
       <Texts text="23/05 - 21/08" />
+    </div>
+    <div id="skills">
+      <br />
+      <Titles type="h2" title="Formação:" nameClass="subTitles" />
+      <Texts text="Ciência da Computação - Universidade Regional Do Alto Uruguai e das Missões URI Erechim" />
+      <Texts text="2021 - 2024" />
     </div>
     <div id="linguagem">
       <br />
       <Titles type="h2" title="Idioma:" nameClass="subTitles" />
+      <Texts text="Português - Nativo" />
       <Texts text="Inglês - Avançado" />
-    </div>
-    <div id="skills">
-      <br />
-      <Titles type="h2" title="Skills:" nameClass="subTitles" />
-      <div id="imageContainer">
-        <img
-          alt="Vue"
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
-        />
-        <img
-          alt="JavaScript"
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-        />
-        <img
-          alt="Leo-React"
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-        />
-        <img
-          alt="TypeScript"
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
-        />
-        <img
-          alt="HTML"
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-        />
-        <img
-          alt="CSS"
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-        />
-        <img
-          alt="SAAS"
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
-        />
-      </div>
     </div>
   </div>
 </template>
