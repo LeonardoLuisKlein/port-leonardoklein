@@ -1,0 +1,36 @@
+#skills{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+#skillsWrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border: 1.5px #4682B4 solid;
+    border-radius: 3px;
+    @media (max-width: 768px) {
+        width: 100%;
+        border-top: 1.5px #4682B4 solid;
+        border-bottom: 1.5px #4682B4 solid;
+        border-radius: 0px;
+    }
+}
+
