@@ -9,6 +9,7 @@
       <div id="navDiv">
         <a class="socialText" v-on:click="pushToSocial">Social</a>
         <a class="socialText" v-on:click="pushToProjects">Projetos</a>
+        <a class="socialText" v-on:click="pushToSkills">Skills</a>
       </div>
       <div id="cardsDiv">
         <skillCards type="Github" />
@@ -34,6 +35,9 @@ export default {
 
     pushToProjects() {
       this.$router.push("/projetos");
+    },
+    pushToSkills() {
+      this.$router.push("/skills");
     },
   },
 };
