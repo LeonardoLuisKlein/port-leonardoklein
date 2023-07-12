@@ -38,17 +38,29 @@
     linkRep="https://github.com/LeonardoLuisKlein/ToDoTS"
     picture_src="todots.png"/>
     <projectCard 
+    cardText="Formulário JS"
+    description="Formulário com validações Regex usando React.js" 
+    link="https://portifolio-leonardo.netlify.app/#/" 
+    linkRep="https://github.com/LeonardoLuisKlein/internReactForm"
+    picture_src="intern.png"/>
+    <projectCard 
+    cardText="Loja"
+    description="Painel administrativo para uma loja, usando React.js e SpringBoot" 
+    link="https://portifolio-leonardo.netlify.app/#/" 
+    linkRep="https://github.com/LeonardoLuisKlein/loja-tem-de-tudo"
+    picture_src="vendas.png"/>
+    <projectCard 
     cardText="Processador de imagens"
     description="Processador de imagens desktop windows form utilizando C#" 
     link="https://portifolio-leonardo.netlify.app/#/" 
     linkRep="https://github.com/LeonardoLuisKlein/ProcessadorDeImagens"
     picture_src="proc.png"/>
     <projectCard 
-    cardText="Formulário JS"
-    description="Formulário com validações Regex usando React.js" 
+    cardText="Compressor de imagens"
+    description="Compressor de imagens desktop windows form utilizando C#" 
     link="https://portifolio-leonardo.netlify.app/#/" 
-    linkRep="https://github.com/LeonardoLuisKlein/internReactForm"
-    picture_src="intern.png"/>
+    linkRep="https://github.com/LeonardoLuisKlein/compressor-de-imagens"
+    picture_src="compressor.png"/>
   </div>
 </template>
 
