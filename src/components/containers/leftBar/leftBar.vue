@@ -8,8 +8,10 @@
     <div id="navContainer">
       <div id="navDiv">
         <a class="socialText" v-on:click="pushToSocial">Social</a>
+        <div class="bars"></div>
         <a class="socialText" v-on:click="pushToProjects">Projetos</a>
-        <a class="socialText" v-on:click="pushToSkills">Skills</a>
+        <div class="bars"></div>
+        <a class="socialText" v-on:click="pushToSkills">Habilidades</a>
       </div>
       <div id="cardsDiv">
         <skillCards type="Github" />

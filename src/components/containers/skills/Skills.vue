@@ -1,6 +1,6 @@
 <template>
   <div id="skills">
-      <Titles type="h1" title="Skills" nameClass="Title" />
+      <Titles type="h1" title="Habilidades" nameClass="Title" />
       <div id="skillsWrap">
       <div class="skillContainer">
           <Titles type="h3" title="FrontEnd" nameClass="subTitles" />
